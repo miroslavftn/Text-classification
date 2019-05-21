@@ -50,7 +50,7 @@ def remove_non_letters(text):
 
 def text_to_words_list(text, stop_words=False):
     text = normalize_text(text)
-    # text = remove_punctuations(text)
+    text = remove_punctuations(text)
     # tokenized_text = word_tokenize(text)
     # text = ' '.join(tokenized_text)
     text = remove_non_letters(text)
